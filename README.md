@@ -17,3 +17,13 @@ This is an example ruby on rails app that shows how you can build "remote modals
 Here is a video showing the example:
 
 [Remote modals with Hotwire and Bootstrap](https://www.loom.com/share/bcc3514ebafc4665874098bf8386cd1f)
+
+---
+
+![](https://github.com/afgnsu/Rails002/blob/main/01.jpg)
+
+![](https://github.com/afgnsu/Rails002/blob/main/02.jpg)
+
+![](https://github.com/afgnsu/Rails002/blob/main/03.jpg)
+
+![](https://github.com/afgnsu/Rails002/blob/main/04.jpg)

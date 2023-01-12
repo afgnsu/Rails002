@@ -1,0 +1,31 @@
+<div class="products-header">
+  <h1>Products</h1>
+  <div>
+    <%= link_to "New product", new_product_path, class: "btn btn-primary",    data: { turbo_frame: "remote_modal" } %>
+  </div>
+</div>
+<table class="table" id="products">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @products.each do |product| %>
+      <tr id="<%= dom_id(product) %>">
+        <td>
+          <%= product.name %>
+        </td>
+        <td>
+          <%= product.description %>
+        </td>
+        <td class="table-links">
+          <%= link_to "Edit", edit_product_path(product), class: "me-2 btn btn-sm btn-outline-primary", data: { turbo_frame: "remote_modal" } %>
+          <%= button_to "Delete", product, method: :delete, class: "btn btn-sm btn-outline-danger", form: { data: { turbo_confirm: "Are you sure?" } } %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

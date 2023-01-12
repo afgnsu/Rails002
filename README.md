@@ -1,4 +1,4 @@
-#實作 Bootstrap Modal 彈跳視窗
+# 實作 Bootstrap Modal 彈跳視窗
 
 ## Remote modals with hotwire and bootstrap
 

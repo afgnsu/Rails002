@@ -37,3 +37,11 @@ Here is a video showing the example:
 ![](https://github.com/afgnsu/Rails002/blob/main/08.jpg)
 
 ![](https://github.com/afgnsu/Rails002/blob/main/09.jpg)
+
+![](https://github.com/afgnsu/Rails002/blob/main/10.jpg)
+
+![](https://github.com/afgnsu/Rails002/blob/main/11.jpg)
+
+![](https://github.com/afgnsu/Rails002/blob/main/12.jpg)
+
+![](https://github.com/afgnsu/Rails002/blob/main/13.jpg)
